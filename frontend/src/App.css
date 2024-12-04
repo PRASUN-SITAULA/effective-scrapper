@@ -1,0 +1,33 @@
+.gradient-blur{
+    border-radius: 50% 22% 40% 80%;  
+    filter: blur(100px);
+    background: radial-gradient(circle at 50% 50%,rgba(76, 0, 255, 1), rgba(76, 0, 255, 0));
+    opacity: 0.2;  
+}
+
+.custom-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-svg svg {
+    position: relative;
+    display: block;
+    width: calc(120% + 1.3px);
+    height: 153px;
+}
+
+.custom-svg .shape-fill {
+    fill: #020024;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to bottom, #3DFB60 50%, indigo 40%);
+    filter: blur(65px);
+}
