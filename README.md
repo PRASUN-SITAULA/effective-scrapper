@@ -1,34 +1,32 @@
-This repository contains a README file sample for Daytona Samples and the MIT License.
+# Sample <NodeJS/React>
 
-It can be used as a template to create sample repositories that can be added into [Daytona](https://github.com/daytonaio/daytona).
+# Sample description
+The sample simplifies the job search process for individuals interested in roles of Software Engineer, Hardware Engineer and UI Desginer by leveraging the power of web scraping.
 
-Once you finish your sample and it gets merged, you can open a PR in the Daytona repo and submit the sample into the [index file](https://github.com/daytonaio/daytona/blob/main/hack/samples/index.json).
+## 🚀 Getting Started
 
-# Sample <LANGUAGE/FRAMEWORK>
+### Open Using Daytona
 
-Sample description
+1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).
+2. **Create the Workspace**:
+   ```bash
+   daytona create https://github.com/PRASUN-SITAULA/effective-scrapper
+   ```
+3. **Start the Application**:
 
----
+  Go to backend Folder
+   ```bash
+   npm start
+   ```
+  Go to frontend Folder
+  ```bash
+  npm run dev
+  ```
 
-## 🚀 Getting Started  
+## ✨ Features
 
-### Open Using Daytona  
+Scraping Capability: careerQuest utilizes scrapping scrape job listings from indeed, ensuring coverage of available opportunities.
 
-1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).  
-2. **Create the Workspace**:  
-   ```bash  
-   daytona create <SAMPLE_REPO_URL> 
-   ```  
+Categorized Listings: Jobs are categorized into three main categories - Software Engineer, UI Designer, and Hardware Engineer, making it easy for users to find roles that match their skills and interests.
 
-... MORE STEPS IF NEEDED ...
-
-4. **Start the Application**:  
-   ```bash  
-   command to start the app
-   ```  
-
----
-
-## ✨ Features  
-
-List of sample features (e.g. realtime chat app, standardized development environment with devcontainers)
+User-Friendly Interface: The web app has a user interface, allowing users to effortlessly navigate through job listings and explore details such as job title, company, location, and job description.
