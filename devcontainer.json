@@ -1,0 +1,21 @@
+{
+  "name": "careerQuest Dev Environment",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-14",
+  "forwardPorts": [8000, 5173],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "javascript.validate.enable": true,
+        "eslint.autoFixOnSave": true
+      },
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "mtxr.sql-formatter",
+        "antfu.git-commit-msg",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+  "postCreateCommand": "npm install --prefix backend && npm install --prefix frontend"
+}

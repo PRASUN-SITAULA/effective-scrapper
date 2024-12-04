@@ -14,7 +14,7 @@ export default function Feature() {
           <div className="w-1/2 px-4">
             <img src={search} alt="Search" />
           </div>
-          <div className="flex justify-center flex-col items-center w-full px-4 md:w-2/5 mr-20">
+          <div className="w-full px-4 md:w-2/5 mr-20">
             <h2 className="font-bold text-2xl md:text-4xl text-white mb-4 w-full">
               Search based on categories
             </h2>
@@ -25,7 +25,7 @@ export default function Feature() {
           </div>
         </div>
         <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-1 ml-4 mb-24">
-          <div className="flex flex-col items-center justify-center w-full px-4 md:w-2/5 ml-20">
+          <div className="w-full px-4 md:w-2/5 ml-20">
             <h2 className="font-bold text-2xl md:text-4xl text-white mb-4">
               Detailed Job Listings
             </h2>

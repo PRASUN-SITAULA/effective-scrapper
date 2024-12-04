@@ -2,7 +2,6 @@ import axios from "axios";
 import { useState } from "react";
 import JobCard from "../components/JobCard";
 import Loader from "../components/Loader";
-import { axiosInstance } from "../../utils/axios";
 
 export default function Search() {
   const [jobsData, setJobsData] = useState([]);
@@ -24,10 +23,11 @@ export default function Search() {
     // get the scraped data
     try {
       setisLoading(true);
-      const response = await axiosInstance.get(
-        `/api/v1/jobs?query=${encodeURIComponent(userInput)}`,
+      const response = await axios.get(
+        `http://127.0.0.1:8000/api/v1/jobs?query=${encodeURIComponent(userInput)}`,
       );
       const requiredData = response.data.data;
+      // filterData(requiredData);
       setJobsData(requiredData);
       setisLoading(false);
     } catch (error) {

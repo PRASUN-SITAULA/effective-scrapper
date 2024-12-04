@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Landing() {
   return (
-    <div className="m-4 flex justify-center items-center">
+    <div className="m-4 flex justify-center items-center ">
       <div className="w-full flex flex-col ">
         <div className="w-full flex md:flex-row flex-col-reverse relative bg-custom-blue justify-between items-center rounded-t-xl ">
           <div className="mt-8 ml-8">
@@ -11,7 +11,7 @@ export default function Landing() {
               Discover Your Next Career Opportunity with
             </h1>
             <h1 className="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-100 inline-block text-transparent bg-clip-text text-7xl my-4">
-              JobScrapper
+              careerQuest
             </h1>
             <div className="md:w-3/4 w-5/6 my-4 text-white text-sm">
               With advanced web scraping technology, the latest job postings
@@ -29,7 +29,7 @@ export default function Landing() {
         </div>
 
         <div className="bg-custom-blue">
-          <button className="py-2 px-2 rounded font-medium bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 ml-8 text-white cursor-pointer">
+          <button className="py-2 px-2 rounded font-semibold bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 ml-8 text-white cursor-pointer">
             <Link to="/jobs">Get Started</Link>
           </button>
         </div>
@@ -43,7 +43,7 @@ export default function Landing() {
             >
               <path
                 d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-                class="shape-fill"
+                className="shape-fill"
               ></path>
             </svg>
           </div>
