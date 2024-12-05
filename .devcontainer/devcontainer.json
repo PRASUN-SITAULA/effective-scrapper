@@ -1,10 +1,12 @@
 {
   "name": "effective-scrapper Dev Environment",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
-  "dockerComposeFile": ["../docker-compose.yml"],
   "forwardPorts": [8000, 5173],
-  "features": {
-    "ghcr.io/devcontainers/features/docker-outside-of-container:1": {}
+  "postCreateCommand": "cd frontend && npm install && cd ../backend && npm install && sudo apt-get update && sudo apt-get install -y chromium",
+
+  "containerEnv": {
+    "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD": "true",
+    "PUPPETEER_EXECUTABLE_PATH": "/usr/bin/chromium"
   },
   "customizations": {
     "vscode": {
