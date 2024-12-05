@@ -1,6 +1,6 @@
 {
   "name": "careerQuest Dev Environment",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-14",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
   "forwardPorts": [8000, 5173],
   "customizations": {
     "vscode": {
