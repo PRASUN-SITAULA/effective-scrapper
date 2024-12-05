@@ -1,5 +1,6 @@
 {
   "name": "effective-scrapper Dev Environment",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
   "dockerComposeFile": ["../docker-compose.yml"],
   "forwardPorts": [8000, 5173],
   "features": {
@@ -19,6 +20,5 @@
         "esbenp.prettier-vscode"
       ]
     }
-  },
-  "postStartCommand": "docker compose up --build"
+  }
 }
