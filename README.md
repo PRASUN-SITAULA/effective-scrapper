@@ -7,7 +7,7 @@
   <img src="https://github.com/PRASUN-SITAULA/carbonWise/assets/89672957/106f3a07-d14a-4ee9-9e0c-c8cfbc635a79">
 </p>
 
-# Sample Javascript
+# Sample Javascript with React and NodeJs
 
 # Description
 Effective Scrapper is a web application designed to simplify the job search process for individuals interested in roles within the technology industry. Leveraging the power of web scraping , Effective Scrapper provides users with a streamlined interface to explore job listings tailored to three key categories: Software Engineer, UI Designer, and Hardware Engineer.

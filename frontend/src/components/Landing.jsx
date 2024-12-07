@@ -11,7 +11,7 @@ export default function Landing() {
               Discover Your Next Career Opportunity with
             </h1>
             <h1 className="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-100 inline-block text-transparent bg-clip-text text-7xl my-4">
-              careerQuest
+              Effective Scrapper
             </h1>
             <div className="md:w-3/4 w-5/6 my-4 text-white text-sm">
               With advanced web scraping technology, the latest job postings
