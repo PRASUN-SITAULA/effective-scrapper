@@ -12,8 +12,7 @@
   "customizations": {
     "vscode": {
       "settings": {
-        "javascript.validate.enable": true,
-        "eslint.autoFixOnSave": true
+        "javascript.validate.enable": true
       }
     }
   }
